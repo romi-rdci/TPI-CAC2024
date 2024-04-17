@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --clr-black: rgb(0,0,0);
+    --clr-red: rgb(219,0,0);
+    --clr-white:rgb(255,255,255);
+    --clr-grey:  rgb(86,77,77);
+    --clr-mora:rgb(131,16,16);
+}
+
+/*begin SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--clr-black); 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--clr-mora); 
+}
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-grey); 
+}
+/*end SCROLL BAR*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Averia Sans Libre" , sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    color: var(--clr-white);
+    background-color: var(--clr-black);
+}
+
+nav{
+    background-color: var(--clr-mora);
+    height: 4rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    padding-top: 1rem;
+    z-index: 1;
+    
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    background-color: var(--clr-mora);
+    color: var(--clr-white);
+    border-radius: 5px;
+    border: 1px var(--clr-black);
+    padding: 5px;
+    cursor: pointer;
+}
+.btnPpal{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    padding: .5rem 1rem .5rem 1rem ;
+}
+.boton:hover{
+    background-color: var(--clr-white);
+    color: var(--clr-mora);
+}
+
+ul{
+    margin-right: .6rem;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 0.2rem;
+}
+
+.logo{
+    padding-left: .7rem;
+    color: var(--clr-white);
+    float: left;
+}
+
+.listNav{
+    float: right;
+}
+
+.img_ppal_texto{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_ppal{
+    
+    background: url(img/img_ppal.jpg) center center fixed;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.busqueda{
+    width: 100%;
+    height: 30vh;
+}
+
+.input_text{
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    margin-top: .7rem;
+    padding-inline-start: 1.5rem;
+    width: 70vh;
+    height: 5vh;
+    background-color: var(--clr-grey);
+    border: 1.5px solid var(--clr-white);
+    border-radius: 90vmax;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.input_text::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;
+}
+
+/*BEGIN SECCION TENDENCIAS*/
+.tendencia{
+    width: 100%;
+}
+/*.peliculasTendencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}*/
+.peliculasTendencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.imgTendencia{
+    width: 100%;
+    max-width: 15rem;
+    opacity: .88;
+    border-radius: 10px;
+}
+.cardPelicula{
+    position: relative;
+    text-align: center;
+    
+}
+.ttlMovie{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnTendencia{
+    margin: 1.5rem;
+
+}
+
+/*END SECCION TENDENCIAS*/
+.peliculasAclamadas{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: .8rem;
+}
+.imgAclamadas{
+
+    max-width: 10rem;
+    opacity: .88;
+    border-radius: 3px;
+    margin: .5rem;
+}
+.ttlAclamadas{
+    text-align: center;
+    
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--clr-mora);
+}
+.footer_ppal{
+    margin-left: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+/*FORMULARIO DE REGISTRO*/
+
+.body-registro{
+    
+    background-image: url("/img/bg-register.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+input::placeholder{
+    font-size: .8rem;
+    /*text-align: left;*/
+    vertical-align: top;
+    
+}
+input[type=email],input[type=text],input[type=date], input[type=password], select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: var(--clr-grey);
+    border: 1.5px solid var(--clr-white);
+    border-radius: 90vmax;
+    box-sizing: border-box;
+}
+
+input[type=email]:focus,input[type=text]:focus,input[type=date]:focus, input[type=password]:focus, select:focus {
+    outline: none;
+    border: 2px solid var(--clr-mora);
+
+}
+
+input[type=date]{
+    color: var(--clr-white);
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    font-size: 1.2rem;
+
+}
+select{
+    color: var(--clr-white);
+    
+}
+
+.section_register{
+    border-radius: .4rem;
+    padding: .3rem;
+    display: block;
+    background-color: var(--clr-black);
+    margin: 3rem auto;
+    max-width: 20%;
+
+}
+.form_reg{
+    text-align: center;
+    padding: 0 1.5rem 0 1.5rem ;
+}
+
+.terminos{
+    
+    color: var(--clr-white);
+    font-size: .6rem;
+    margin-left:.2rem;
+}
+input[type=button]{
+    
+    margin-bottom: .5rem;
+    width: 90%;
+    border-radius: 2px;
+    border: solid var(--clr-mora) ;
+    background-color: var(--clr-mora);
+    color: var(--clr-white);
+    cursor: pointer;
+    padding: .3rem;
+}
+input[type=button]:hover{
+    background-color: var(--clr-grey);
+}
+
+.terminos_y_condiciones{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    margin-top: .5rem;
+    display: flex;
+    text-align: left;
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: .7rem;
+}
+.volver{
+    color: #e7e2e2;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.seccion_volver{
+    margin: 1.5rem; 
+}
+
+/*FORMULARIO DE REGISTRO*/
+
+/*TITULOS SUBTITULOS*/
+.ttlPpal{
+    font-weight: 700;
+    font-size: xxx-large;
+    text-shadow: 1px 1px var(--clr-grey);
+    margin-bottom: 1.5rem;
+}
+.sttlPpal{
+    margin-top: .4rem;
+    font-weight: 400;
+    font-size: x-large;
+    text-shadow: 1px 1px var(--clr-grey);
+    letter-spacing: .1rem;
+}
