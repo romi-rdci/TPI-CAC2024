@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    background-image: url("../img/bg-register.jpg");
+    height: 1024px;
+}
+
+main{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    width: 500px;
+    height: 600px;
+    background-color: #fff2df;
+}
+
+form{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.formato{
+    height: 50px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 60px;
+    color: white;
+    background-color: black;
+}
+
+#registrar{
+    background-color: #674d3c;
+}

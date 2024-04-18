@@ -109,7 +109,7 @@ li{
 
 .img_ppal{
     
-    background: url(img/img_ppal.jpg) center center fixed;
+    background: url("/img/img_ppal.jpg") center center fixed;
     background-size: cover;
     opacity: 0.9;
     width: 100%;
