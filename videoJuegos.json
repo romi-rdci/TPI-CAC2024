@@ -1,0 +1,54 @@
+{
+  "videoJuegos": [
+    {
+		"id": 1,	
+		"name": "Arkanoid",
+		"img": "./img/videoJuegos/arkanoid.jpeg"
+    },
+	    {
+		"id": 2,	
+		"name": "Doom",
+		"img": "./img/videoJuegos/doom.jpg"
+    },
+	    {
+		"id": 3,	
+		"name": "Double Dragon",
+		"img": "./img/videoJuegos/doubleDragon.png"
+    },
+	    {
+		"id": 4,	
+		"name": "Mortal Kombat",
+		"img": "./img/videoJuegos/mortalKombat.jpeg"
+    },
+	    {
+		"id": 5,	
+		"name": "Prince of Persia",
+		"img": "./img/videoJuegos/princePersia.jpg"
+    },
+	    {
+		"id": 6,	
+		"name": "Resident Evil",
+		"img": "./img/videoJuegos/residentEvil.jpeg"
+    },
+	    {
+		"id": 7,	
+		"name": "Sonic",
+		"img": "./img/videoJuegos/sonic.jpeg"
+    },
+	    {
+		"id": 8,	
+		"name": "Super Mario Bros.",
+		"img": "./img/videoJuegos/superMario.jpg"
+    },
+	    {
+		"id": 9,	
+		"name": "Adventure Islander",
+		"img": "./img/videoJuegos/islander.jpeg"
+    },
+	    {
+		"id": 10,	
+		"name": "Tetris",
+		"img": "./img/videoJuegos/tetris.jpg"
+    }
+  ]
+}

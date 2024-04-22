@@ -1,0 +1,44 @@
+{
+	"anime":[
+	{
+		"name": "Avatar: La leyenda de Ang",
+		"img": "./img/anime/avatar.jpg"
+	},
+	{
+		"name": "Bleach",
+		"img": "./img/anime/bleach.png"
+	},
+	{
+		"name": "Haikyu",
+		"img": "./img/anime/haikyu.jpg"
+    },
+	{
+		"name": "Naruto",
+		"img": "./img/anime/naruto.jpeg"
+    },
+	{
+		"name": "One Outos",
+		"img": "./img/anime/oneOuts.jpeg"
+    },
+	{
+		"name": "One Piece",
+		"img": "./img/anime/onePiece.jpg"
+    },
+	{
+		"name": "Saint Seya",
+		"img": "./img/anime/saintSeya.jpg"
+    },
+	{
+		"name": "Slam Dunk",
+		"img": "./img/anime/slamDunk.jpeg"
+    },
+	{
+		"name": "Supercampeones",
+		"img": "./img/anime/supercampeones.png"
+    },
+	{
+		"name": "Yu-Yu Hakusho",
+		"img": "./img/anime/yuyuHakusho.jpg"
+    }
+  ]
+}

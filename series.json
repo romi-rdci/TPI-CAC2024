@@ -1,0 +1,36 @@
+{
+  "anime": [
+    {
+		"name": "Alf",
+		"img": "./img/series/alf.jpg"
+    },
+	{
+		"name": "Brigada A",
+		"img": "./img/series/aTeam.jpg"
+    },
+	{
+		"name": "Dexter",
+		"img": "./img/series/dexter.jpg"
+    },
+	{
+		"name": "Dr. House",
+		"img": "./img/series/drHouse.jpg"
+    },
+	{
+		"name": "E.R. Emergencias",
+		"img": "./img/series/erEmergencias.jpg"
+    },
+	{
+		"name": "Mc Gayver",
+		"img": "./img/series/mcGyver.jpg"
+    },
+	{
+		"name": "Friends",
+		"img": "./img/series/friends.jpg"
+    },
+	{
+		"name": "Supernatural",
+		"img": "./img/series/supernatural.jpg"
+    }
+  ]
+}
