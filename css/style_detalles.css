@@ -42,3 +42,21 @@
         }
     }
 }
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tabla-info{
+    width: 100%;
+    margin-left: 50px;
+    th{
+        text-align: center;
+    }
+    tr td:first-child,th{
+        font-size: 1.5rem;
+    }
+    td{
+        padding:0 50px 10px 0;
+    }
+}
