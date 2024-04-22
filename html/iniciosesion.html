@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +14,6 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-ico">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
-    <title>Registrarse...</title>
 </head>
 <body class="body-registro">
     <div class="seccion_volver">
@@ -30,14 +30,8 @@
 
             <form class="form_reg"  action="#" method="post">
 
-                <h1 class="tituloRegistrarse">Registro</h1>
-                <div>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-                </div>
+                <h1 class="tituloRegistrarse">Iniciar Sesión</h1>
                 
-                <div>
-                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-                </div>
                 
                 <div>
                     <input type="email" name="email" id="email" placeholder="Email" required>
@@ -47,29 +41,13 @@
                     <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
                 </div>
                 
+                
                 <div>
-                <input type="date" name="fechaNac" id="fechaNac" placeholder="Fnac.(dd/mm/aaaa)" required>
-                </div>
-                <div> 
-                    <select name="country" id="country" required>
-                        <option value="">País</option>
-                        <option value="argentina">Argentina</option>
-                        <option value="mexico">México</option>
-                        <option value="venezuela">Venezuela</option>
-                    </select>
-                </div>
-
-                <div class="terminos_y_condiciones" >
-                    <input type="checkbox" name="acept" id="acept" required> 
-                    <label class="terminos" for="acept">Acepto términos y condiciones</label>
+                    <input class="boton" type="submit" value="Iniciar Sesión">
                 </div>
                 
                 <div>
-                    <input class="boton" type="submit" value="Registrarse">
-                </div>
-                
-                <div>
-                    <a class="terminos_y_condiciones" href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso">¿Necesitas ayuda?</a>
+                    <a class="terminos_y_condiciones" href="../html/registro.html">Registrarse</a>
                 </div>
             </form>
         </section>

@@ -80,7 +80,7 @@ nav{
 ul{
     margin-right: .6rem;
 }
-ul li a{
+a{
     text-decoration: none;
     color: var(--clr-white);
 }
@@ -109,7 +109,7 @@ li{
 
 .img_ppal{
     
-    background: url("/img/img_ppal.jpg") center center fixed;
+    background: url("../img/img_ppal.jpg") center center fixed;
     background-size: cover;
     opacity: 0.9;
     width: 100%;
@@ -200,7 +200,7 @@ footer{
 /*FORMULARIO DE REGISTRO*/
 
 .body-registro{
-    background-image: url("/img/bg-register.jpg") !important; 
+    background-image: url("../img/bg-register.jpg") !important; 
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: scroll;
@@ -307,9 +307,6 @@ input[type=button]:hover{
     text-shadow: 1px 1px var(--clr-grey);
     letter-spacing: .1rem;
 }
-
-
-
 .peliculasAclamadas, .anime, .seires, .videoJuegos{
     flex-wrap: nowrap;
     overflow-x: scroll;
