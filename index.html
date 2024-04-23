@@ -23,8 +23,8 @@
                     <span>|TPI| CAC-Movies</span>
                 </div>
                 <ul class="listNav">
-                    <li class="listaItem"><a class="linkNav" href="#tendencia">Tendencias</a></li>
-                    <li class="listaItem"><a class="linkNav" href="./html/registro.html">Registrarse</a></li>
+                    <li class="listaItem"><button class="boton"><a href="#tendencia">Tendencias</a></button></li>
+                    <li class="listaItem"><button class="boton"><a href="./html/registro.html">Registrarse</a></button></li>
                     <li class="listaItem"><button class="boton"><a href="./html/iniciosesion.html">Iniciar Sesión</a></button></li>
                 </ul>
             </nav>
@@ -53,69 +53,41 @@
         <!-- TENDENCIAS -->
         <section class="tendencia centrar" id="tendencia">
             <h1 class="ttlPpal">Las tendencias de hoy</h1>
+
+
             <div class="peliculasTendencia" >
-                <a class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_1.jpg" alt="The Beekeeper">
-                        <h4 class="ttlMovie">The Beekeeper</h4>
-                    </div>
+
+                <a class="cardPelicula" href="./html/pages/detalles.html">
+                    <div class="card-face card-front"><img class="imgTendencia" src="img/tendencias/peli_1.jpg" alt="The Beekeeper"></div>
+                    <div class="card-face card-back"><h4 class="ttlMovie">The Beekeeper</h4></div>
                 </a>
-                <a class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_2.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="./html/pages/detalles.html">
+                    <div class="card-face card-front"><img class="imgTendencia" src="img/tendencias/peli_2.jpg" alt="Badland Hunters"></div>
+                    <div class="card-face card-back"><h4 class="ttlMovie">Badland Hunters</h4></div>
                 </a>
-                <a  class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_3.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="#">
+                    <div class="card-face card-front"><img class="imgTendencia" src="img/tendencias/peli_3.jpg" alt="The Marvels"></div>
+                    <div class="card-face card-back"><h4 class="ttlMovie">The Marvels</h4></div>
                 </a>
-                <a class="pelicula"  href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_4.jpg" alt="The Beekeeper">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="#">
+                    <div class="card-face card-front"><img class="imgTendencia" src="img/tendencias/peli_4.jpg" alt="Wonka"></div>
+                    <div class="card-face card-back"><h4 class="ttlMovie">Wonka</h4></div>
                 </a>
-                <a  class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_5.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="#">
+                    <div class=""><img class="imgTendencia" src="img/tendencias/peli_5.jpg" alt="Aquaman"></div>
+                    <div class=""><h4 class="ttlMovie">Aquaman</h4></div>
                 </a>
-                <a  class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_6.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="#">
+                    <div class=""><img class="imgTendencia" src="img/tendencias/peli_6.jpg" alt="Migration"></div>
+                    <div class=""><h4 class="ttlMovie">Migration</h4></div>
                 </a>
-                <a  class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_7.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
-                    
+                <a class="cardPelicula" href="#">
+                    <div class=""><img class="imgTendencia" src="img/tendencias/peli_7.jpg" alt="60 Minutes"></div>
+                    <div class=""><h4 class="ttlMovie">60 Minutes</h4></div>
                 </a>
-                <a  class="pelicula" href="#">
-                    <div class="cardPelicula">
-                        <img class="imgTendencia" src="img/tendencias/peli_8.jpg" alt="">
-                        <div>
-                            <h4 class="ttlMovie">The Beekeeper</h4>
-                        </div>
-                    </div>
+                <a class="cardPelicula" href="#">
+                    <div class=""><img class="imgTendencia" src="img/tendencias/peli_8.jpg" alt="Wish"></div>
+                    <div class=""><h4 class="ttlMovie">Wish</h4></div>
                 </a>
             </div> 
             <div class="btnTendencia">
@@ -131,56 +103,32 @@
             </div> 
             <div class="peliculasAclamadas">
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_1.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">The Shawshank</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_1.jpg" alt="The Shawshank redenption">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_2.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">The Godfather</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_2.jpg" alt="The Godfather">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_3.jpg" alt="">
-                    <div>
-                        <h4>The Godfather PART II</h4>                     
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_3.jpg" alt="The Godfather II">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_4.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">Schindler´s List</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_4.jpg" alt="Schindler's List">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_5.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">12 Angry Men</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_5.jpg" alt="12 Angry Men">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_6.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">Spirited Away</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_6.jpg" alt="Spirited away">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_7.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">The dark Knight</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_7.jpg" alt="The Dark Knight">
                 </div>
                 <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_8.jpg" alt="">
-                    <div>
-                        <h4 class="ttlAclamadas">Parasite</h4>
-                    </div>
+                    <img class="imgAclamadas" src="img/aclamadas/aclamada_8.jpg" alt="Parasite">
                 </div>
             </div>
         </section>
-
+<!--FIN ACLAMADAS -->
         <br><br>        
 
         <!-- ANIME -->
@@ -228,7 +176,6 @@
 
         <!-- SCRIPT -->
         <script src="./js/script.js"></script>
-        
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

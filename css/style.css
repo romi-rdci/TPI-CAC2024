@@ -66,18 +66,20 @@ nav{
     color: var(--clr-white);
     border-radius: 5px;
     border: 1px var(--clr-black);
-    padding: 5px;
+    padding: .5rem 1rem .5rem 1rem ;
     cursor: pointer;
 }
+.boton:hover{
+    box-shadow: 1px 1px 2px 2px rgba(150, 149, 149, 0.8);
+}
+
+
 .btnPpal{
     margin-top: 3rem;
     font-size: 1.3rem;
     padding: .5rem 1rem .5rem 1rem ;
 }
-.boton:hover{
-    background-color: var(--clr-white);
-    color: var(--clr-mora);
-}
+
 
 ul{
     margin-right: .6rem;
@@ -150,12 +152,18 @@ li{
     width: 100%;
 }
 /*.peliculasTendencia{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
+
+
+
+
+
 }*/
 .peliculasTendencia{
+    background-color: lightskyblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
@@ -181,8 +189,47 @@ li{
 }
 .btnTendencia{
     margin: 1.5rem;
-
 }
+
+.cardPelicula:hover{
+    transform: rotateY(180deg);
+    box-shadow: 0px 0px 2px 2px rgba(28, 214, 37, 0.815);
+    border-radius: 10PX;
+}
+.cardPelicula{
+
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card-face{
+    position: relative;/*cambie absoluta por relativa*/
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+/*.card-front{
+
+}*/
+.card-back{
+    
+    transform: rotateY(180deg);
+    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*END SECCION TENDENCIAS*/
 
 
@@ -283,6 +330,8 @@ input[type=button]:hover{
     text-decoration: none;
     font-size: .7rem;
 }
+
+/*ICONO PARA VOLVER AL INDEX DESDE EL REGISTRO*/
 .volver{
     color: #e7e2e2;
     text-decoration: none;
@@ -292,8 +341,8 @@ input[type=button]:hover{
 .seccion_volver{
     margin: 1.5rem; 
 }
-
-/*FORMULARIO DE REGISTRO*/
+/*FIN ICONO PARA VOLVER AL INDEX DESDE EL REGISTRO*/
+/*FIN FORMULARIO DE REGISTRO*/
 
 /*TITULOS SUBTITULOS*/
 .ttlPpal{
@@ -325,6 +374,6 @@ input[type=button]:hover{
     border-radius: 3px;
     margin: .5rem;
 }
-.ttlAclamadas .ttlAnime, .ttlSeries, .ttlVideoJuegos{
+.ttlAnime, .ttlSeries, .ttlVideoJuegos{
     text-align: center;
 }
