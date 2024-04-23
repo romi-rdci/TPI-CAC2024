@@ -11,8 +11,10 @@
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-ico">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
+    
     <!-- css para la pagina de detalles -->
     <link rel="stylesheet" href="../../css/style_detalles.css">
+    
    
 
     <title>Document</title>
@@ -34,7 +36,7 @@
         </nav>
     </header>
     <main id="mainDetalle">
-        <section class="detalle">
+        <section class="detalle" data-aos="zoom-in">
             <div class="contenedorDetalle">
                 <!-- IMAGEN DEL DETALLE -->
                 <div class="imgDetalle">
@@ -65,7 +67,7 @@
                 </div>
             </div>
         </section>
-        <section class="trailer">
+        <section class="trailer" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="trailerContainer">
                 <h2>Ver trailer</h2>
                 <iframe src="https://www.youtube.com/embed/RjNcTBXTk4I?si=7fnK8NtlxetW0d1R"" frameborder="0" width="560" height="340"></iframe>
@@ -130,6 +132,9 @@
             </ul>
         </div>
     </footer>
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     
 </body>
 </html>
