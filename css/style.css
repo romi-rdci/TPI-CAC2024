@@ -52,6 +52,17 @@ nav{
     position: fixed;
     padding-top: 1rem;
     z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* responsive */
+@media (max-width:750px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
     
 }
 .centrar{
@@ -98,11 +109,11 @@ li{
 .logo{
     padding-left: .7rem;
     color: var(--clr-white);
-    float: left;
+    /* float: left; */
 }
 
 .listNav{
-    float: right;
+    /* float: right; */
 }
 
 .img_ppal_texto{
