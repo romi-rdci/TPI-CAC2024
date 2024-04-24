@@ -68,7 +68,7 @@ Promise.all([cargarJSON(urlJSON1),cargarJSON(urlJSON2),cargarJSON(urlJSON3)])
         });
 
 
-        videoJuegos = document.querySelector(".viedoJuegos")
+        videoJuegos = document.querySelector(".video-juegos")
 
         data3.videoJuegos.forEach( element => {
 
