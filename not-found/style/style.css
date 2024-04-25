@@ -3,6 +3,7 @@ body{
     padding: 0;
     width: 100%;
     height: 100vh;
+    background-color: rgb(76, 146, 226, 0.795);
     background-image: url("/img/pagenotfound/pagina-en-construcción.jpeg");
     background-repeat: no-repeat;
     background-position:center center;
