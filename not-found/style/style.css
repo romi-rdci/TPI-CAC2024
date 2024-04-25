@@ -1,11 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-
-    background-image: url("/img/pagenotfound/pagina-en-construcción3.png");
-    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/img/pagenotfound/pagina-en-construcción.jpeg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position:center center;
     background-attachment: fixed;
 }
-
