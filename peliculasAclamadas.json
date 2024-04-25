@@ -1,0 +1,36 @@
+{
+	"aclamadas": [
+		{
+			"name": "The Shawshank",
+			"img": "./img/aclamadas/aclamada_1.jpg"
+		},
+		{
+			"name": "The Godfather",
+			"img": "./img/aclamadas/aclamada_2.jpg"
+		},
+		{
+			"name": "The Godfather PART II",
+			"img": "./img/aclamadas/aclamada_3.jpg"
+		},
+		{
+			"name": "Schindler´s List",
+			"img": "./img/aclamadas/aclamada_4.jpg"
+		},
+		{
+			"name": "12 Angry Men",
+			"img": "./img/aclamadas/aclamada_5.jpg"
+		},
+		{
+			"name": "Spirited Away",
+			"img": "./img/aclamadas/aclamada_6.jpg"
+		},
+		{
+			"name": "The dark Knight",
+			"img": "./img/aclamadas/aclamada_7.jpg"
+		},
+		{
+			"name": "Parasite",
+			"img": "./img/aclamadas/aclamada_8.jpg"
+		}
+	]
+}

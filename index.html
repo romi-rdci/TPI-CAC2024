@@ -16,28 +16,29 @@
     <body>
         <header>
             <!-- NAV -->   
-            <nav>
-                <!-- <div class="logo nav justify-content">-->
-                <div class="logo">
-                    <i class="fas fa-film"></i>
-                    <span>|TPI| CAC-Movies</span>
-                </div>
-                <ul class="listNav">
-                    <li class="listaItem"><button class="boton"><a href="#tendencia">Tendencias</a></button></li>
-                    <li class="listaItem"><button class="boton"><a href="./html/registro.html">Registrarse</a></button></li>
-                    <li class="listaItem"><button class="boton"><a href="./html/iniciosesion.html">Iniciar Sesión</a></button></li>
-                </ul>
-            </nav>
+            <div class="div-nav-logo">
+                <nav>
+                    <!-- <div class="logo nav justify-content">-->
+                    <div class="logo">
+                        <i class="fas fa-film"></i>
+                        <span>|TPI| CAC-Movies</span>
+                    </div>
+                    <ul class="listNav">
+                        <li class="listaItem"><button class="boton"><a href="#tendencia">Tendencias</a></button></li>
+                        <li class="listaItem"><button class="boton"><a href="./registro/registro.html">Registrarse</a></button></li>
+                        <li class="listaItem"><button class="boton"><a href="./iniciosesion/iniciosesion.html">Iniciar Sesión</a></button></li>
+                    </ul>
+                </nav>
+            </div>
                 
-            <main class="img_ppal" >
+            <div class="img_ppal">
                 <section class="img_ppal_texto" data-aos="zoom-in" data-aos-duration="1000" >
                     <h1 class="ttlPpal">Películas y series ilimitadas y<br> mucho más</h1>
                     <h5 class="sttlPpal">Disfruta donde quieras. Cancela cuando quieras.</h5>
-                    <button class="boton btnPpal"><a href="/html/registro.html">Registrarse</a></button>       
+                    <button class="boton btnPpal"><a href="./registro/registro.html">Registrarse</a></button>       
                 </section>
-            </main>               
+            </div>
         </header>
-        <!--  -->      
 
         <!-- BUSCADOR -->
         <section class="busqueda centrar">
@@ -53,7 +54,6 @@
         <!-- TENDENCIAS -->
         <section class="tendencia centrar" id="tendencia">
             <h1 class="ttlPpal">Las tendencias de hoy</h1>
-
 
             <div class="container">
                 <div class="row row-cols-auto justify-content-center" >
@@ -88,11 +88,9 @@
                     <div class="cardPelicula p-3" >
                         <div class=""><img class="imgTendencia" src="img/tendencias/peli_8.jpg" alt="Wish"></div>
                         <div class=""><a class="ttlMovie" href="./html/pages/detalles.html">Wish</a></div>
-                        </div>
+                    </div>
                 </div> 
             </div>
-
-
             <div class="container ">
                 <div class="btnTendencia">
                     <button class="btnTendencia boton anterior">Anterior</button>
@@ -102,38 +100,14 @@
         </section>
 
         <!-- ACLAMADAS -->
-        <section class="aclamadas centrar" data-aos="zoom-in" data-aos-duration="1000">
+        <section class="animeSeccion centrar" data-aos="zoom-in" data-aos-duration="1000">
             <div class="titulo">
                 <h1 class="ttlPpal">Las más aclamadas</h1>
             </div> 
             <div class="peliculasAclamadas">
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_1.jpg" alt="The Shawshank redenption">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_2.jpg" alt="The Godfather">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_3.jpg" alt="The Godfather II">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_4.jpg" alt="Schindler's List">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_5.jpg" alt="12 Angry Men">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_6.jpg" alt="Spirited away">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_7.jpg" alt="The Dark Knight">
-                </div>
-                <div>
-                    <img class="imgAclamadas" src="img/aclamadas/aclamada_8.jpg" alt="Parasite">
-                </div>
-            </div>
-        </section>
-<!--FIN ACLAMADAS -->
+            </div> 
+        </section>        
+        <!--FIN ACLAMADAS -->
         <br><br>        
 
         <!-- ANIME -->
@@ -144,7 +118,6 @@
             <div class="anime">
             </div> 
         </section>
-
         <br><br>
 
         <!-- SERIES -->
@@ -155,15 +128,14 @@
             <div class="series">
             </div> 
         </section>
-
         <br><br>        
 
         <!-- VIDEO JUEGOS -->
-        <section class="viedoJuegos centrar" data-aos="zoom-in" data-aos-duration="1000">
+        <section class="viedoJuegosSeccion centrar" data-aos="zoom-in" data-aos-duration="1000">
             <div class="titulo">
                 <h1 class="ttlPpal">Video Juegos</h1>
             </div> 
-            <div class="video-juegos">
+            <div class="videoJuegos">
             </div> 
         </section>
 
@@ -171,10 +143,10 @@
         <footer>
             <div class="footer_ppal">
                 <ul>
-                    <li><a href="html/terminosycondiciones.html">Términos y condiciones</a></li>
-                    <li><a href="html/preguntas.html">Preguntas frecuentes</a></li>
-                    <li><a href="html/ayuda.html">Ayuda</a></li>
-                    <li><a href="html/CRUD.html">CRUD de Películas</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">CRUD de Películas</a></li>
                 </ul>
             </div>
         </footer>

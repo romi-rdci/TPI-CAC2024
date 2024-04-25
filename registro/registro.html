@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <script src="https://kit.fontawesome.com/2d02ae8409.js" crossorigin="anonymous"></script>
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-ico">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/style.css">  
+        <link rel="stylesheet" href="./style/style.css">    
+        
+        <title>Registrarse...</title>
+    </head>
+
+    <body class="cleaning">
+        <main class="cleaning" data-aos="zoom-in" data-aos-duration="1000">
+            <section class="seccion_volver cleaning">
+                <a href="../index.html" class="volver" >
+                    Movies
+                    <i class="fas fa-film"></i>
+                </a>
+            </section>
+
+            <section class="section-registro" id="main-form" >
+                <form class="form-registro"  action="#" method="post">
+        
+                    <h1 class="tituloRegistrarse">Registro</h1>
+                    <div>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    </div>
+                    
+                    <div>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                    </div>
+                    
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+    
+                    <div>
+                        <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                    </div>
+                    
+                    <div>
+                    <input type="date" name="fechaNac" id="fechaNac" placeholder="Fnac.(dd/mm/aaaa)" required>
+                    </div>
+                    <div> 
+                        <select name="country" id="country" required>
+                            <option value="">País</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="mexico">México</option>
+                            <option value="venezuela">Venezuela</option>
+                        </select>
+                    </div>
+    
+                    <div class="terminos_y_condiciones" >
+                        <input type="checkbox" name="acept" id="acept" required> 
+                        <label class="terminos" for="acept">Acepto términos y condiciones</label>
+                    </div>
+                    
+                    <div>
+                        <input class="boton" type="submit" value="Registrarse">
+                    </div>
+                    
+                    <div>
+                        <a class="terminos_y_condiciones" href="https://es.wikipedia.org/wiki/T%C3%A9rminos_y_condiciones_de_uso">¿Necesitas ayuda?</a>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+.cleaning{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../../img/bg-register.jpg"); 
+    background-repeat: repeat;
+    background-attachment: scroll;
+
+    height: 100vh;
+}
+
+.seccion_volver{
+    height: 100px !important;
+    padding-left: 50px;
+    padding-top: 15px !important;
+    height: 100px;
+}
+
+.seccion_volver a{
+    font-size: 30px !important;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-registro{
+    width: 90%;
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.form-registro{
+    width: 600px;
+    background-color: black;
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+input::placeholder{
+    font-size: .8rem;
+    /*text-align: left;*/
+    vertical-align: top;
+}
+input[type=email],input[type=text],input[type=date], input[type=password], select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    color: white;
+    background-color: var(--clr-grey);
+    border: 1.5px solid var(--clr-white);
+    border-radius: 90vmax;
+    box-sizing: border-box;
+}
+input[type=email]:focus,input[type=text]:focus,input[type=date]:focus, input[type=password]:focus, select:focus {
+    outline: none;
+    border: 2px solid var(--clr-mora);
+}
+input[type=date]{
+    color: var(--clr-white);
+}
+

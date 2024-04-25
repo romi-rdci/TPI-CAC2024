@@ -6,36 +6,28 @@
 	},
 	{
 		"name": "Bleach",
-		"img": "./img/anime/bleach.png"
+		"img": "./img/anime/bleach.jpg"
 	},
 	{
 		"name": "Haikyu",
-		"img": "./img/anime/haikyu.jpg"
+		"img": "./img/anime/haikyui.jpg"
     },
 	{
 		"name": "Naruto",
-		"img": "./img/anime/naruto.jpeg"
-    },
-	{
-		"name": "One Outos",
-		"img": "./img/anime/oneOuts.jpeg"
+		"img": "./img/anime/naruto.jpg"
     },
 	{
 		"name": "One Piece",
 		"img": "./img/anime/onePiece.jpg"
     },
 	{
-		"name": "Saint Seya",
-		"img": "./img/anime/saintSeya.jpg"
-    },
-	{
 		"name": "Slam Dunk",
-		"img": "./img/anime/slamDunk.jpeg"
+		"img": "./img/anime/slamDunk.jpg"
     },
 	{
-		"name": "Supercampeones",
-		"img": "./img/anime/supercampeones.png"
-    },
+		"name": "Dragon Ball",
+		"img": "./img/anime/dragonBall.jpg"
+    },	
 	{
 		"name": "Yu-Yu Hakusho",
 		"img": "./img/anime/yuyuHakusho.jpg"

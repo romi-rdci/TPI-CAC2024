@@ -1,0 +1,30 @@
+header{
+    opacity: 1;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section_register{
+    padding-top: 20px;
+    padding-top: 10px;
+}
+
+.seccion-inicioSesion{
+    
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.form-inicioSesion{
+    width: 50% ;
+    background-color: black;
+
+    padding: 20px 0 20px 0;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iniciar Sesión</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <script src="https://kit.fontawesome.com/2d02ae8409.js" crossorigin="anonymous"></script>
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-ico">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../registro/style/style.css">
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body class="body-registro cleaning">
+
+        <header data-aos="zoom-in" data-aos-duration="1000">
+            <section class="seccion_volver cleaning">
+                <a href="../index.html" class="volver" >
+                    Movies
+                    <i class="fas fa-film"></i>
+                </a>
+            </section>
+        </header>
+
+        <main class="main" id="main-form" >
+            <section class="seccion-inicioSesion" >
+                <form class="form-inicioSesion"  action="#" method="post">
+
+                    <h1 class="tituloRegistrarse">Iniciar Sesión</h1>
+                    
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div>
+                        <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                    </div>
+                    
+                    <div>
+                        <input class="boton" type="submit" value="Iniciar Sesión">
+                    </div>
+                    
+                    <div>
+                        <a class="terminos_y_condiciones" href="../registro/registro.html">Registrarse</a>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+
+    </body>
+</html>
