@@ -112,9 +112,6 @@ li{
     /* float: left; */
 }
 
-.listNav{
-    /* float: right; */
-}
 
 .img_ppal_texto{
     align-items: center;
@@ -158,25 +155,8 @@ li{
     right:20px;
 }
 
-/*BEGIN SECCION TENDENCIAS*/
 .tendencia{
     width: 100%;
-}
-/*.peliculasTendencia{
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-
-
-
-
-
-}*/
-.peliculasTendencia{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
 }
 
 .imgTendencia{
@@ -198,13 +178,16 @@ li{
     transform: translate(-50%, -50%);
 }
 .btnTendencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1.5rem;
 }
 
 .cardPelicula:hover{
-    transform: rotateY(360deg);
-    box-shadow: 0px 0px 2px 2px rgba(28, 214, 37, 0.815);
-    border-radius: 10PX;
+    transform: rotateY(-180deg);
+    filter: drop-shadow(4px 4px 2px var(--clr-red));
+    border-radius: .5rem;
 }
 .cardPelicula{
 
