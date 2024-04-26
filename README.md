@@ -1,2 +1,9 @@
 # TPI-CAC2024
-trabajo practico integrador
+
+Trabajo Practico Integrador
+
+Grupo N° 11
+Integrantes:
+* Romina Iurchik
+* Franco Myburg
+* Fernando Espindola
