@@ -3,8 +3,12 @@ body{
     padding: 0;
     width: 100%;
     height: 100vh;
+<<<<<<< HEAD
     background-color: rgb(76, 146, 226, 0.795);
-    background-image: url("/img/pagenotfound/pagina-en-construcción.jpeg");
+    background-image: url("../../img/pageNotFound/pagina-en-construccion.png");
+=======
+    background-image: url("/img/pagenotfound/");
+>>>>>>> 2472805929e20ac50af8c82109bfdca4463cfef3
     background-repeat: no-repeat;
     background-position:center center;
     background-attachment: fixed;
