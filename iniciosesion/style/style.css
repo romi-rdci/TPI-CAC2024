@@ -28,3 +28,7 @@ header{
     padding: 20px 0 20px 0;
 
 }
+
+.ocultar{
+    display: none !important
+}
