@@ -361,4 +361,9 @@ footer{
     }
 }
 
+/* ocultar */
+.hide{
+    display: none;
+}
+
 
