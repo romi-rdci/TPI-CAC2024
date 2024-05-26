@@ -12,33 +12,27 @@ const email = document.querySelector('#email')
 const password =  document.querySelector('#pass')
 const boton = document.querySelector('.boton')
 
+email.addEventListener("blur", function(){
+    if ( !regex.mail.test(email.value.trim()) && email.value.trim() != "" ){
+        email.focus()
+        alert("Ingrese un formato valido.")
+    }       
+})
+
 
 boton.addEventListener("click", function() {
-    if ( email.value.trim() == "" || password.value.trim() == "" )
-        alert("Debe ingresar usuario y contraseña.")
+    if ( !regex.mail.test(email.value.trim()) && email.value.trim() != "" ){
+        email.focus()
+    }    
     else{
-        window.close()
-        window.open("../index.html")
+        if ( email.value.trim() == "" || password.value.trim() == "" )
+            alert("Debe ingresar usuario y contraseña.")
+        else{
+            window.close()
+            window.open("../index.html")
+        }
     }
-        
 })
-
-
-
-/*
-email.addEventListener("blur", function() {
-    if(!regex.name.test(email.value))
-        console.log("errror")
-        //mensajeError("Solo se aceptan letras para el ingreso de nombre")
-})
-
-password.addEventListener("blur", function() {
-    if(!regex.name.test(password.value))
-        console.log("errror")
-        //mensajeError("Solo se aceptan letras para el ingreso de nombre")
-})
-*/
-
 
 
 
