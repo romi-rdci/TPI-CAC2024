@@ -1,9 +1,9 @@
 const regex = {
-    name: /^[A-Z]+[a-z]{4,20}$/,
-    edad: /^[A-Z]+[a-z]{4,20}$/,
+    //name: /^[A-Z]+[a-z]{4,20}$/,
+    //edad: /^[A-Z]+[a-z]{4,20}$/,
     mail: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-    password: /^(?=.[A-Za-z])(?=.\d)[A-Za-z\d]{8,}$/, 
-    username: /^[a-zA-Z0-9_]{4,16}$/ 
+    password: /^(?=.[A-Za-z])(?=.\d)[A-Za-z\d]{8,}$/
+    //username: /^[a-zA-Z0-9_]{4,16}$/ 
 }
 
 
@@ -14,9 +14,13 @@ const boton = document.querySelector('.boton')
 
 
 boton.addEventListener("click", function() {
-    if ( email.value.trim() == "" || password.value.trim() == "" ){
-        alert("ERRRORRRRRRRR!!!")
+    if ( email.value.trim() == "" || password.value.trim() == "" )
+        alert("Debe ingresar usuario y contraseña.")
+    else{
+        window.close()
+        window.open("../index.html")
     }
+        
 })
 
 
