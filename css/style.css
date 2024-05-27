@@ -163,20 +163,24 @@ li{
     width: 100%;
     max-width: 15rem;
     opacity: .88;
-    border-radius: 10px;
+    border-radius: .5rem;
+    -webkit-box-shadow: 9px -11px 83px 1px rgba(130,15,17,1);
+    -moz-box-shadow: 9px -11px 83px 1px rgba(130,15,17,1);
+    box-shadow: 9px -11px 83px 1px rgba(130,15,17,1);
 }
-.cardPelicula{
-    position: relative;
-    text-align: center;
-    
-}
+
 .ttlMovie{
     color: #fff;
     position: absolute;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(4px 4px 2px var(--clr-red));
 }
+
 .btnTendencia{
     display: flex;
     align-items: center;
@@ -184,30 +188,39 @@ li{
     margin: 1.5rem;
 }
 
-.cardPelicula:hover{
-    transform: rotateY(-360deg);
-    filter: drop-shadow(4px 4px 2px var(--clr-red));
+.card-container{
+    perspective: 1000px;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 2s;
     border-radius: .5rem;
 }
-.cardPelicula{
 
-    transform-style: preserve-3d;
-    transition: transform 1s;
+.card:hover{
+    transform: rotateY(180deg);
+    
 }
 
+
 .card-face{
-    position: relative;/*cambie absoluta por relativa*/
+    background-color:var(--clr-black);
+    box-shadow: 2px 2px 4px var(--clr-red);
+    border-radius: .5rem;
+    position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
-/*.card-front{
 
-}*/
 .card-back{
-    
+   
     transform: rotateY(180deg);
-    box-shadow: 2px 2px 2px 2px rgba(1, 1, 1, 0.2);
+    
 }
 /*END SECCION TENDENCIAS*/
 

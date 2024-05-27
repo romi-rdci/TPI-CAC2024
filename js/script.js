@@ -138,14 +138,21 @@ const containerWrite = (results)=>{
     for (result of results){
         const movieCard = document.createElement("div");
         movieCard.innerHTML = `
-                        <div class=""><img class="imgTendencia" src="${url_imagen}${result.poster_path}" alt="Badland Hunters"></div>
-                        <div class=""><a class="ttlMovie" href="./html/pages/detalles.html">${result.title}</a></div>
+                    <div class="card">
+                        <div class="card-face card-front">
+                            <img class="imgTendencia" src="${url_imagen}${result.poster_path}" alt="Badland Hunters">
+                        </div>
+                        <div class="card-face card-back">
+                            <a class="ttlMovie" href="./html/pages/detalles.html">${result.title}</a>
+                        </div>
+                    </div>
         ` ;
-        movieCard.classList.add("cardPelicula")
+        movieCard.classList.add("card-container")
         movieCard.classList.add("p-3")
         container.appendChild(movieCard);
     }
-} 
+}
+
 document.addEventListener("DOMContentLoaded",async ()=>{
     const results = await getData();
     containerWrite(results.slice(0,8));
